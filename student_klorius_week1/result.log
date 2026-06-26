@@ -1,0 +1,5 @@
+Epoch 1/5 | Loss: 0.5144 | Acc: 81.46%
+Epoch 2/5 | Loss: 0.3808 | Acc: 86.05%
+Epoch 3/5 | Loss: 0.3429 | Acc: 87.27%
+Epoch 4/5 | Loss: 0.3160 | Acc: 88.31%
+Epoch 5/5 | Loss: 0.2996 | Acc: 88.88%
