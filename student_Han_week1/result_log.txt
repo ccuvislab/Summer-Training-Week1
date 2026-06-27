@@ -1,0 +1,13 @@
+Dataset: FashionMNIST
+Model: MLP
+Epochs: 10
+Batch size: 64
+Learning rate: 0.001
+Optimizer: Adam
+Loss function: CrossEntropyLoss
+
+Final training loss: 0.2390
+Final training accuracy: 0.9114
+
+WandB project: summer_hw1
+Model saved as: model.pt
