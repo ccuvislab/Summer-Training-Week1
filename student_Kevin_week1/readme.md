@@ -1,5 +1,5 @@
 ### nvidia-smi 截圖
-![nvidia-smi](nvidia-smi-screenshot.png)
+![nvidia-smi](nvidia-smi_screenshot.png)
 
 ### tmux 畫面
 ![tmux](tmux_screenshot.png)
