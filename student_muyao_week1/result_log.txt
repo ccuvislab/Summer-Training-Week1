@@ -1,0 +1,108 @@
+wandb: [wandb.login()] Loaded credentials for https://api.wandb.ai from /home/u5450760/.netrc.
+wandb: Currently logged in as: mike2006 (mike2006-national-chung-cheng-university) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: setting up run c3bv8lnt
+wandb: Tracking run with wandb version 0.28.0
+wandb: Run data is saved locally in /workspace/wandb/run-20260701_155636-c3bv8lnt
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run mild-serenity-4
+wandb: ⭐️ View project at https://wandb.ai/mike2006-national-chung-cheng-university/week1-mnist
+wandb: 🚀 View run at https://wandb.ai/mike2006-national-chung-cheng-university/week1-mnist/runs/c3bv8lnt
+Using device: cuda
+Loading dataset...
+  0%|          | 0.00/26.4M [00:00<?, ?B/s]  0%|          | 32.8k/26.4M [00:00<03:52, 113kB/s]  0%|          | 65.5k/26.4M [00:00<03:49, 115kB/s]  0%|          | 131k/26.4M [00:00<02:36, 168kB/s]   1%|          | 229k/26.4M [00:01<01:49, 238kB/s]  2%|▏         | 459k/26.4M [00:01<00:57, 450kB/s]  3%|▎         | 918k/26.4M [00:01<00:29, 864kB/s]  7%|▋         | 1.84M/26.4M [00:01<00:14, 1.66MB/s] 14%|█▍        | 3.67M/26.4M [00:02<00:07, 3.22MB/s] 28%|██▊       | 7.31M/26.4M [00:02<00:03, 6.26MB/s] 43%|████▎     | 11.4M/26.4M [00:02<00:01, 8.72MB/s] 59%|█████▉    | 15.6M/26.4M [00:03<00:01, 10.6MB/s] 73%|███████▎  | 19.3M/26.4M [00:03<00:00, 11.4MB/s] 89%|████████▊ | 23.4M/26.4M [00:03<00:00, 12.3MB/s]100%|██████████| 26.4M/26.4M [00:03<00:00, 7.18MB/s]
+  0%|          | 0.00/29.5k [00:00<?, ?B/s]100%|██████████| 29.5k/29.5k [00:00<00:00, 105kB/s]100%|██████████| 29.5k/29.5k [00:00<00:00, 104kB/s]
+  0%|          | 0.00/4.42M [00:00<?, ?B/s]  1%|          | 32.8k/4.42M [00:00<00:39, 112kB/s]  1%|▏         | 65.5k/4.42M [00:00<00:38, 114kB/s]  2%|▏         | 98.3k/4.42M [00:00<00:37, 115kB/s]  5%|▌         | 229k/4.42M [00:01<00:16, 252kB/s]  10%|█         | 459k/4.42M [00:01<00:08, 456kB/s] 21%|██        | 918k/4.42M [00:01<00:04, 856kB/s] 41%|████▏     | 1.84M/4.42M [00:01<00:01, 1.65MB/s] 83%|████████▎ | 3.67M/4.42M [00:02<00:00, 3.21MB/s]100%|██████████| 4.42M/4.42M [00:02<00:00, 1.95MB/s]
+  0%|          | 0.00/5.15k [00:00<?, ?B/s]100%|██████████| 5.15k/5.15k [00:00<00:00, 4.38MB/s]
+wandb: uploading history steps 8-8, summary, console lines 65-73; updating run metadata
+wandb: updating run metadata
+wandb: uploading config.yaml; uploading output.log; uploading wandb-summary.json
+wandb: uploading history steps 9-9, summary, console lines 74-77
+wandb: 
+wandb: Run history:
+wandb:          epoch ▁▂▃▃▄▅▆▆▇█
+wandb:  test_accuracy ▁▄▅▅▆▇██▆█
+wandb: train_accuracy ▁▅▆▆▇▇▇███
+wandb:     train_loss █▄▃▃▂▂▂▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:          epoch 10
+wandb:  test_accuracy 88.59
+wandb: train_accuracy 90.385
+wandb:     train_loss 0.25812
+wandb: 
+wandb: 🚀 View run mild-serenity-4 at: https://wandb.ai/mike2006-national-chung-cheng-university/week1-mnist/runs/c3bv8lnt
+wandb: ⭐️ View project at: https://wandb.ai/mike2006-national-chung-cheng-university/week1-mnist
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260701_155636-c3bv8lnt/logs
+Starting training...
+Batch 100/469, Loss: 0.5467
+Batch 200/469, Loss: 0.4500
+Batch 300/469, Loss: 0.4283
+Batch 400/469, Loss: 0.4332
+Epoch 1/10
+  Train Loss: 0.5222, Train Acc: 81.11%
+  Test Acc: 85.29%
+Batch 100/469, Loss: 0.4233
+Batch 200/469, Loss: 0.3031
+Batch 300/469, Loss: 0.3593
+Batch 400/469, Loss: 0.4307
+Epoch 2/10
+  Train Loss: 0.3804, Train Acc: 86.01%
+  Test Acc: 86.71%
+Batch 100/469, Loss: 0.2474
+Batch 200/469, Loss: 0.3267
+Batch 300/469, Loss: 0.3725
+Batch 400/469, Loss: 0.4197
+Epoch 3/10
+  Train Loss: 0.3474, Train Acc: 87.27%
+  Test Acc: 87.14%
+Batch 100/469, Loss: 0.2572
+Batch 200/469, Loss: 0.2173
+Batch 300/469, Loss: 0.2737
+Batch 400/469, Loss: 0.4767
+Epoch 4/10
+  Train Loss: 0.3243, Train Acc: 88.06%
+  Test Acc: 87.17%
+Batch 100/469, Loss: 0.3603
+Batch 200/469, Loss: 0.3044
+Batch 300/469, Loss: 0.2646
+Batch 400/469, Loss: 0.2291
+Epoch 5/10
+  Train Loss: 0.3097, Train Acc: 88.56%
+  Test Acc: 87.86%
+Batch 100/469, Loss: 0.2095
+Batch 200/469, Loss: 0.2601
+Batch 300/469, Loss: 0.1912
+Batch 400/469, Loss: 0.2764
+Epoch 6/10
+  Train Loss: 0.2965, Train Acc: 88.98%
+  Test Acc: 88.08%
+Batch 100/469, Loss: 0.2641
+Batch 200/469, Loss: 0.3272
+Batch 300/469, Loss: 0.2307
+Batch 400/469, Loss: 0.3471
+Epoch 7/10
+  Train Loss: 0.2839, Train Acc: 89.43%
+  Test Acc: 88.64%
+Batch 100/469, Loss: 0.1428
+Batch 200/469, Loss: 0.2087
+Batch 300/469, Loss: 0.2338
+Batch 400/469, Loss: 0.2971
+Epoch 8/10
+  Train Loss: 0.2741, Train Acc: 89.74%
+  Test Acc: 88.46%
+Batch 100/469, Loss: 0.2171
+Batch 200/469, Loss: 0.1660
+Batch 300/469, Loss: 0.2911
+Batch 400/469, Loss: 0.2020
+Epoch 9/10
+  Train Loss: 0.2661, Train Acc: 90.06%
+  Test Acc: 87.87%
+Batch 100/469, Loss: 0.2291
+Batch 200/469, Loss: 0.2796
+Batch 300/469, Loss: 0.2082
+Batch 400/469, Loss: 0.2567
+Epoch 10/10
+  Train Loss: 0.2581, Train Acc: 90.39%
+  Test Acc: 88.59%
+Model saved to model.pt

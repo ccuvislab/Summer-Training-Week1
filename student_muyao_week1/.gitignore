@@ -1,0 +1,7 @@
+/data
+/wandb
+model.pt
+model_simple.pt
+*.pyc
+__pycache__/
+.vscode/
