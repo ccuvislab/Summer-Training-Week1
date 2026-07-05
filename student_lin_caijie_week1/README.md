@@ -25,7 +25,6 @@ train_mnist.py
 student_lin_caijie_week1/
 ├── README.md
 ├── train_mnist.py
-├── requirements.txt
 ├── requirements_TWCC_week1.txt
 ├── requirements_nano4_week1.txt
 ├── result_log_TWCC_week1.txt
@@ -41,7 +40,6 @@ student_lin_caijie_week1/
 檔案用途：
 
 - `train_mnist.py`：FashionMNIST MLP 訓練主程式
-- `requirements.txt`：基本 Python 套件需求
 - `requirements_TWCC_week1.txt`：TWCC 執行環境紀錄
 - `requirements_nano4_week1.txt`：Nano4 執行環境紀錄
 - `result_log_TWCC_week1.txt`：TWCC 訓練結果摘要
