@@ -1,0 +1,13 @@
+# Environment requirements for Summer Training Week 1
+# Recommended install command:
+#   pip install -r requirements.txt
+#
+# PyTorch CUDA 11.8 wheels are used for the TWCC Tesla V100 environment.
+
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.7.1+cu118
+torchvision==0.22.1+cu118
+torchaudio==2.7.1+cu118
+wandb==0.28.0
+matplotlib==3.10.9
+tqdm==4.68.3

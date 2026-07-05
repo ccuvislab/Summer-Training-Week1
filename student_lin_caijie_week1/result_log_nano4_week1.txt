@@ -1,0 +1,85 @@
+﻿Nano4 Week1 Result Log
+
+Platform: Nano4
+User: u1603645
+Slurm account: ACD114160
+Partition: dev
+GPU request: --gres=gpu:1
+Python executable: /home/u1603645/.conda/envs/week1-mnist/bin/python
+Training script: train_mnist.py
+Dataset: FashionMNIST
+Model: MLP
+Epochs: 10
+W&B mode: offline
+
+============================================================
+1. salloc run
+============================================================
+
+The official train_mnist.py script was executed on Nano4 using salloc and srun.
+
+Allocation ID: 164943
+Login node: 25a-lgn05
+Compute node: 25a-hgpn072
+GPU: NVIDIA H200
+CUDA device used by PyTorch: cuda
+
+Final salloc training result:
+
+Epoch 10
+train_loss = 0.2713
+train_accuracy = 0.8982
+test_loss = 0.3307
+test_accuracy = 0.8808
+
+W&B offline logging completed successfully.
+The model was saved to:
+
+student_lin_caijie_week1/model.pt
+
+After the salloc run, the allocation was released with exit.
+squeue -u u1603645 confirmed that there was no remaining job.
+
+============================================================
+2. sbatch + tail run
+============================================================
+
+The same official train_mnist.py script was submitted as a Slurm batch job using sbatch.
+
+Job ID: 164954
+Script: run_week1.sbatch
+Log file: logs/nano4_week1_164954.out
+GPU: NVIDIA H200
+torch.cuda.is_available(): True
+GPU detected by PyTorch: NVIDIA H200
+CUDA device used by PyTorch: cuda
+
+The log was monitored using:
+
+tail -f logs/nano4_week1_164954.out
+
+Final sbatch training result:
+
+Epoch 10
+train_loss = 0.2720
+train_accuracy = 0.8988
+test_loss = 0.3212
+test_accuracy = 0.8869
+
+W&B offline logging completed successfully.
+The model was saved to:
+
+student_lin_caijie_week1/model.pt
+
+The job finished successfully.
+After the sbatch run, squeue -u u1603645 confirmed that there was no remaining job.
+
+============================================================
+3. Summary
+============================================================
+
+Nano4 salloc and sbatch executions were both completed successfully.
+The training script ran on an NVIDIA H200 GPU with CUDA enabled.
+FashionMNIST MLP training completed for 10 epochs.
+W&B logging worked in offline mode.
+The final Nano4 sbatch test accuracy was 0.8869.

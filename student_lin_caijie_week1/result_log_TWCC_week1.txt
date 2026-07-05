@@ -1,0 +1,41 @@
+Summer Training Week 1 - Training Result Log
+Student: Lin Caijie
+Dataset: FashionMNIST
+Model: MLP
+Device: CUDA / Tesla V100-SXM2-32GB
+Experiment tracking: Weights & Biases
+W&B project: summer_hw1_mnist
+Run name: student_lin_caijie_week1_mlp_fashionmnist
+
+Command:
+python student_lin_caijie_week1/train_mnist.py --epochs 10
+
+Terminal output:
+Using device: cuda
+Tesla V100-SXM2-32GB
+wandb: Tracking run with wandb version 0.28.0
+wandb: Run data is saved locally in /home/u1603645/Summer-Training-Week1/wandb/run-20260705_022500-9mhyf4gr
+wandb: Syncing run student_lin_caijie_week1_mlp_fashionmnist
+wandb: View project at https://wandb.ai/lin-caijie-national-chung-cheng-university/summer_hw1_mnist
+wandb: View run at https://wandb.ai/lin-caijie-national-chung-cheng-university/summer_hw1_mnist/runs/9mhyf4gr
+
+Epoch 01 | train_loss=0.5980, train_acc=0.7868, test_loss=0.4340, test_acc=0.8420
+Epoch 02 | train_loss=0.4025, train_acc=0.8548, test_loss=0.3956, test_acc=0.8605
+Epoch 03 | train_loss=0.3628, train_acc=0.8673, test_loss=0.4053, test_acc=0.8511
+Epoch 04 | train_loss=0.3408, train_acc=0.8755, test_loss=0.3592, test_acc=0.8679
+Epoch 05 | train_loss=0.3230, train_acc=0.8815, test_loss=0.3713, test_acc=0.8675
+Epoch 06 | train_loss=0.3088, train_acc=0.8856, test_loss=0.3484, test_acc=0.8743
+Epoch 07 | train_loss=0.2971, train_acc=0.8895, test_loss=0.3363, test_acc=0.8791
+Epoch 08 | train_loss=0.2846, train_acc=0.8949, test_loss=0.3379, test_acc=0.8767
+Epoch 09 | train_loss=0.2789, train_acc=0.8954, test_loss=0.3471, test_acc=0.8738
+Epoch 10 | train_loss=0.2714, train_acc=0.8967, test_loss=0.3331, test_acc=0.8783
+
+Run summary:
+epoch: 10
+test_accuracy: 0.8783
+test_loss: 0.33314
+train_accuracy: 0.8967
+train_loss: 0.27141
+
+Model output:
+student_lin_caijie_week1/model.pt

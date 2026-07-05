@@ -1,0 +1,74 @@
+﻿# Nano4 Week1 Environment Notes
+
+This file records the Nano4 environment used for Summer Training Week 1.
+
+## Platform
+
+- Platform: Nano4
+- Login node: 25a-lgn05
+- Slurm account: ACD114160
+- Slurm partition: dev
+- GPU request: --gres=gpu:1
+- GPU used: NVIDIA H200
+
+## Python Environment
+
+Python executable used on Nano4:
+
+/home/u1603645/.conda/envs/week1-mnist/bin/python
+
+The Slurm script uses the absolute Python path instead of calling `python` directly, so the job can run with the correct conda environment.
+
+## Python Packages
+
+The following package versions were confirmed in the Nano4 sbatch log:
+
+- Python: /home/u1603645/.conda/envs/week1-mnist/bin/python
+- PyTorch: 2.7.1+cu118
+- torchvision: 0.22.1+cu118
+- CUDA version used by PyTorch: 11.8
+- wandb: 0.28.0
+
+## CUDA / GPU Check
+
+The sbatch log confirmed:
+
+- torch.cuda.is_available(): True
+- GPU detected by PyTorch: NVIDIA H200
+- Training device: cuda
+
+## W&B Mode
+
+W&B was executed in offline mode on Nano4:
+
+WANDB_MODE=offline
+
+Reason:
+
+Nano4 sbatch jobs are non-interactive. Using offline mode prevents the job from waiting for W&B login or API key input. The training metrics are still logged locally under the `wandb/` directory.
+
+## Training Result on Nano4
+
+### salloc run
+
+- Allocation ID: 164943
+- Compute node: 25a-hgpn072
+- Epochs: 10
+- Final test accuracy: 0.8808
+- Log file: nano4_salloc_train_mnist_official.log
+
+### sbatch run
+
+- Job ID: 164954
+- Epochs: 10
+- Final test accuracy: 0.8869
+- Log file: logs/nano4_week1_164954.out
+- Status: Finished successfully
+
+## Notes
+
+The model output was generated successfully during training:
+
+student_lin_caijie_week1/model.pt
+
+The model file is not necessarily committed to GitHub. The submitted code can regenerate it by running `train_mnist.py`.
