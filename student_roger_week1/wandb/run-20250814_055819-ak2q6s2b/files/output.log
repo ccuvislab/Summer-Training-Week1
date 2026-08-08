@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/rogerchao92/Summer-Training-Week1/student_roger_week1/train_mnist.py", line 20, in <module>
+    dataset = datasets.FashionMNIST(root="./data", train=True, transform=transforms.ToTensor(), download=True)
+AttributeError: module 'torchvision.datasets' has no attribute 'FashionMNIST'

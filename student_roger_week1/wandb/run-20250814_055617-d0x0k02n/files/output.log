@@ -1,0 +1,22 @@
+
+Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
+Traceback (most recent call last):
+  File "/home/rogerchao92/Summer-Training-Week1/student_roger_week1/train_mnist.py", line 20, in <module>
+    dataset = datasets.MNIST(root="./mnist",train=True, transform=transforms.ToTensor(), download=True)
+  File "/home/rogerchao92/.local/lib/python3.10/site-packages/torchvision/datasets/mnist.py", line 31, in __init__
+    self.download()
+  File "/home/rogerchao92/.local/lib/python3.10/site-packages/torchvision/datasets/mnist.py", line 90, in download
+    data = urllib.request.urlopen(url)
+  File "/home/rogerchao92/miniconda3/envs/week1/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/home/rogerchao92/miniconda3/envs/week1/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/home/rogerchao92/miniconda3/envs/week1/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/home/rogerchao92/miniconda3/envs/week1/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/home/rogerchao92/miniconda3/envs/week1/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/home/rogerchao92/miniconda3/envs/week1/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found

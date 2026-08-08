@@ -1,0 +1,194 @@
+2025-08-14 05:51:01,601 INFO    StreamThr :21594 [internal.py:wandb_internal():86] W&B internal server running at pid: 21594, started at: 2025-08-14 05:51:01.600399
+2025-08-14 05:51:01,602 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: status
+2025-08-14 05:51:01,603 INFO    WriterThread:21594 [datastore.py:open_for_write():87] open: /home/rogerchao92/Summer-Training-Week1/student_roger_week1/wandb/run-20250814_055101-kmrtdoxl/run-kmrtdoxl.wandb
+2025-08-14 05:51:01,605 DEBUG   SenderThread:21594 [sender.py:send():379] send: header
+2025-08-14 05:51:01,606 DEBUG   SenderThread:21594 [sender.py:send():379] send: run
+2025-08-14 05:51:02,079 INFO    SenderThread:21594 [dir_watcher.py:__init__():211] watching files in: /home/rogerchao92/Summer-Training-Week1/student_roger_week1/wandb/run-20250814_055101-kmrtdoxl/files
+2025-08-14 05:51:02,079 INFO    SenderThread:21594 [sender.py:_start_run_threads():1124] run started: kmrtdoxl with start time 1755121861.597413
+2025-08-14 05:51:02,092 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: check_version
+2025-08-14 05:51:02,092 DEBUG   SenderThread:21594 [sender.py:send_request():406] send_request: check_version
+2025-08-14 05:51:02,447 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: run_start
+2025-08-14 05:51:02,455 ERROR   HandlerThread:21594 [gpu.py:is_available():381] Error initializing NVML: RM has detected an NVML/RM version mismatch.
+2025-08-14 05:51:02,456 DEBUG   HandlerThread:21594 [system_info.py:__init__():26] System info init
+2025-08-14 05:51:02,456 DEBUG   HandlerThread:21594 [system_info.py:__init__():41] System info init done
+2025-08-14 05:51:02,456 INFO    HandlerThread:21594 [system_monitor.py:start():194] Starting system monitor
+2025-08-14 05:51:02,456 INFO    SystemMonitor:21594 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-08-14 05:51:02,456 INFO    HandlerThread:21594 [system_monitor.py:probe():214] Collecting system info
+2025-08-14 05:51:02,457 INFO    SystemMonitor:21594 [interfaces.py:start():190] Started cpu monitoring
+2025-08-14 05:51:02,457 INFO    SystemMonitor:21594 [interfaces.py:start():190] Started disk monitoring
+2025-08-14 05:51:02,458 INFO    SystemMonitor:21594 [interfaces.py:start():190] Started memory monitoring
+2025-08-14 05:51:02,458 INFO    SystemMonitor:21594 [interfaces.py:start():190] Started network monitoring
+2025-08-14 05:51:02,470 DEBUG   HandlerThread:21594 [system_info.py:probe():150] Probing system
+2025-08-14 05:51:02,470 DEBUG   HandlerThread:21594 [system_info.py:_probe_git():135] Probing git
+2025-08-14 05:51:02,476 DEBUG   HandlerThread:21594 [system_info.py:_probe_git():143] Probing git done
+2025-08-14 05:51:02,476 DEBUG   HandlerThread:21594 [system_info.py:probe():198] Probing system done
+2025-08-14 05:51:02,477 DEBUG   HandlerThread:21594 [system_monitor.py:probe():223] {'os': 'Linux-3.10.0-1127.el7.x86_64-x86_64-with-glibc2.39', 'python': '3.10.18', 'heartbeatAt': '2025-08-13T21:51:02.470224', 'startedAt': '2025-08-13T21:51:01.586433', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/rogerchao92/Summer-Training-Week1/student_roger_week1/train_mnist.py', 'codePathLocal': 'train_mnist.py', 'codePath': 'student_roger_week1/train_mnist.py', 'git': {'remote': 'https://github.com/ccuvislab/Summer-Training-Week1.git', 'commit': '79fbf890a6644182791fcd7d946d9a2d52a03eff'}, 'email': None, 'root': '/home/rogerchao92/Summer-Training-Week1', 'host': 'lalz6kctr1755090183922-kxw6v', 'username': 'rogerchao92', 'executable': '/home/rogerchao92/miniconda3/envs/week1/bin/python', 'cpu_count': 56, 'cpu_count_logical': 56, 'cpu_freq': {'current': 2700.0, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}, {'current': 2700.0, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 100.0, 'used': 9.864856719970703}}, 'memory': {'total': 754.3398590087891}}
+2025-08-14 05:51:02,479 INFO    HandlerThread:21594 [system_monitor.py:probe():224] Finished collecting system info
+2025-08-14 05:51:02,479 INFO    HandlerThread:21594 [system_monitor.py:probe():227] Publishing system info
+2025-08-14 05:51:02,479 DEBUG   HandlerThread:21594 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2025-08-14 05:51:03,083 INFO    Thread-12 :21594 [dir_watcher.py:_on_file_created():271] file/dir created: /home/rogerchao92/Summer-Training-Week1/student_roger_week1/wandb/run-20250814_055101-kmrtdoxl/files/conda-environment.yaml
+2025-08-14 05:51:03,546 DEBUG   HandlerThread:21594 [system_info.py:_save_conda():222] Saving conda packages done
+2025-08-14 05:51:03,549 INFO    HandlerThread:21594 [system_monitor.py:probe():229] Finished publishing system info
+2025-08-14 05:51:03,554 DEBUG   SenderThread:21594 [sender.py:send():379] send: files
+2025-08-14 05:51:03,554 INFO    SenderThread:21594 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2025-08-14 05:51:03,625 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: python_packages
+2025-08-14 05:51:03,625 DEBUG   SenderThread:21594 [sender.py:send_request():406] send_request: python_packages
+2025-08-14 05:51:03,627 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: internal_messages
+2025-08-14 05:51:03,627 DEBUG   SenderThread:21594 [sender.py:send():379] send: telemetry
+2025-08-14 05:51:03,627 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: stop_status
+2025-08-14 05:51:03,628 DEBUG   SenderThread:21594 [sender.py:send_request():406] send_request: stop_status
+2025-08-14 05:51:04,080 INFO    Thread-12 :21594 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/rogerchao92/Summer-Training-Week1/student_roger_week1/wandb/run-20250814_055101-kmrtdoxl/files/conda-environment.yaml
+2025-08-14 05:51:04,081 INFO    Thread-12 :21594 [dir_watcher.py:_on_file_created():271] file/dir created: /home/rogerchao92/Summer-Training-Week1/student_roger_week1/wandb/run-20250814_055101-kmrtdoxl/files/requirements.txt
+2025-08-14 05:51:04,081 INFO    Thread-12 :21594 [dir_watcher.py:_on_file_created():271] file/dir created: /home/rogerchao92/Summer-Training-Week1/student_roger_week1/wandb/run-20250814_055101-kmrtdoxl/files/output.log
+2025-08-14 05:51:04,082 INFO    Thread-12 :21594 [dir_watcher.py:_on_file_created():271] file/dir created: /home/rogerchao92/Summer-Training-Week1/student_roger_week1/wandb/run-20250814_055101-kmrtdoxl/files/wandb-metadata.json
+2025-08-14 05:51:04,119 DEBUG   SenderThread:21594 [sender.py:send():379] send: exit
+2025-08-14 05:51:04,119 INFO    SenderThread:21594 [sender.py:send_exit():586] handling exit code: 1
+2025-08-14 05:51:04,120 INFO    SenderThread:21594 [sender.py:send_exit():588] handling runtime: 1
+2025-08-14 05:51:04,121 INFO    SenderThread:21594 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2025-08-14 05:51:04,121 INFO    SenderThread:21594 [sender.py:send_exit():594] send defer
+2025-08-14 05:51:04,122 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: defer
+2025-08-14 05:51:04,122 INFO    HandlerThread:21594 [handler.py:handle_request_defer():172] handle defer: 0
+2025-08-14 05:51:04,122 DEBUG   SenderThread:21594 [sender.py:send_request():406] send_request: defer
+2025-08-14 05:51:04,122 INFO    SenderThread:21594 [sender.py:send_request_defer():610] handle sender defer: 0
+2025-08-14 05:51:04,122 INFO    SenderThread:21594 [sender.py:transition_state():614] send defer: 1
+2025-08-14 05:51:04,122 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: defer
+2025-08-14 05:51:04,122 INFO    HandlerThread:21594 [handler.py:handle_request_defer():172] handle defer: 1
+2025-08-14 05:51:04,123 DEBUG   SenderThread:21594 [sender.py:send_request():406] send_request: defer
+2025-08-14 05:51:04,123 INFO    SenderThread:21594 [sender.py:send_request_defer():610] handle sender defer: 1
+2025-08-14 05:51:04,123 INFO    SenderThread:21594 [sender.py:transition_state():614] send defer: 2
+2025-08-14 05:51:04,123 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: defer
+2025-08-14 05:51:04,123 INFO    HandlerThread:21594 [handler.py:handle_request_defer():172] handle defer: 2
+2025-08-14 05:51:04,123 INFO    HandlerThread:21594 [system_monitor.py:finish():203] Stopping system monitor
+2025-08-14 05:51:04,123 INFO    HandlerThread:21594 [interfaces.py:finish():202] Joined cpu monitor
+2025-08-14 05:51:04,124 DEBUG   SystemMonitor:21594 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-08-14 05:51:04,124 DEBUG   SystemMonitor:21594 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-08-14 05:51:04,124 DEBUG   SystemMonitor:21594 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-08-14 05:51:04,124 INFO    HandlerThread:21594 [interfaces.py:finish():202] Joined disk monitor
+2025-08-14 05:51:04,125 INFO    HandlerThread:21594 [interfaces.py:finish():202] Joined memory monitor
+2025-08-14 05:51:04,125 INFO    HandlerThread:21594 [interfaces.py:finish():202] Joined network monitor
+2025-08-14 05:51:04,127 DEBUG   SenderThread:21594 [sender.py:send_request():406] send_request: defer
+2025-08-14 05:51:04,127 INFO    SenderThread:21594 [sender.py:send_request_defer():610] handle sender defer: 2
+2025-08-14 05:51:04,127 INFO    SenderThread:21594 [sender.py:transition_state():614] send defer: 3
+2025-08-14 05:51:04,127 DEBUG   SenderThread:21594 [sender.py:send():379] send: stats
+2025-08-14 05:51:04,127 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: defer
+2025-08-14 05:51:04,127 INFO    HandlerThread:21594 [handler.py:handle_request_defer():172] handle defer: 3
+2025-08-14 05:51:04,128 DEBUG   SenderThread:21594 [sender.py:send_request():406] send_request: defer
+2025-08-14 05:51:04,128 INFO    SenderThread:21594 [sender.py:send_request_defer():610] handle sender defer: 3
+2025-08-14 05:51:04,128 INFO    SenderThread:21594 [sender.py:transition_state():614] send defer: 4
+2025-08-14 05:51:04,128 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: defer
+2025-08-14 05:51:04,128 INFO    HandlerThread:21594 [handler.py:handle_request_defer():172] handle defer: 4
+2025-08-14 05:51:04,128 DEBUG   SenderThread:21594 [sender.py:send_request():406] send_request: defer
+2025-08-14 05:51:04,128 INFO    SenderThread:21594 [sender.py:send_request_defer():610] handle sender defer: 4
+2025-08-14 05:51:04,128 INFO    SenderThread:21594 [sender.py:transition_state():614] send defer: 5
+2025-08-14 05:51:04,128 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: defer
+2025-08-14 05:51:04,128 INFO    HandlerThread:21594 [handler.py:handle_request_defer():172] handle defer: 5
+2025-08-14 05:51:04,129 DEBUG   SenderThread:21594 [sender.py:send():379] send: summary
+2025-08-14 05:51:04,129 INFO    SenderThread:21594 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2025-08-14 05:51:04,129 DEBUG   SenderThread:21594 [sender.py:send_request():406] send_request: defer
+2025-08-14 05:51:04,129 INFO    SenderThread:21594 [sender.py:send_request_defer():610] handle sender defer: 5
+2025-08-14 05:51:04,129 INFO    SenderThread:21594 [sender.py:transition_state():614] send defer: 6
+2025-08-14 05:51:04,130 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: defer
+2025-08-14 05:51:04,130 INFO    HandlerThread:21594 [handler.py:handle_request_defer():172] handle defer: 6
+2025-08-14 05:51:04,130 DEBUG   SenderThread:21594 [sender.py:send_request():406] send_request: defer
+2025-08-14 05:51:04,130 INFO    SenderThread:21594 [sender.py:send_request_defer():610] handle sender defer: 6
+2025-08-14 05:51:04,133 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: status_report
+2025-08-14 05:51:04,296 INFO    wandb-upload_0:21594 [upload_job.py:push():131] Uploaded file /tmp/tmpa6agu_n_wandb/n9r9nwss-wandb-metadata.json
+2025-08-14 05:51:04,448 INFO    SenderThread:21594 [sender.py:transition_state():614] send defer: 7
+2025-08-14 05:51:04,449 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: defer
+2025-08-14 05:51:04,449 INFO    HandlerThread:21594 [handler.py:handle_request_defer():172] handle defer: 7
+2025-08-14 05:51:04,449 DEBUG   SenderThread:21594 [sender.py:send_request():406] send_request: defer
+2025-08-14 05:51:04,449 INFO    SenderThread:21594 [sender.py:send_request_defer():610] handle sender defer: 7
+2025-08-14 05:51:05,081 INFO    Thread-12 :21594 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/rogerchao92/Summer-Training-Week1/student_roger_week1/wandb/run-20250814_055101-kmrtdoxl/files/config.yaml
+2025-08-14 05:51:05,082 INFO    Thread-12 :21594 [dir_watcher.py:_on_file_created():271] file/dir created: /home/rogerchao92/Summer-Training-Week1/student_roger_week1/wandb/run-20250814_055101-kmrtdoxl/files/wandb-summary.json
+2025-08-14 05:51:05,120 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: poll_exit
+2025-08-14 05:51:06,082 INFO    Thread-12 :21594 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/rogerchao92/Summer-Training-Week1/student_roger_week1/wandb/run-20250814_055101-kmrtdoxl/files/output.log
+2025-08-14 05:51:06,119 INFO    SenderThread:21594 [sender.py:transition_state():614] send defer: 8
+2025-08-14 05:51:06,119 DEBUG   SenderThread:21594 [sender.py:send_request():406] send_request: poll_exit
+2025-08-14 05:51:06,119 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: defer
+2025-08-14 05:51:06,120 INFO    HandlerThread:21594 [handler.py:handle_request_defer():172] handle defer: 8
+2025-08-14 05:51:06,120 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: poll_exit
+2025-08-14 05:51:06,121 DEBUG   SenderThread:21594 [sender.py:send_request():406] send_request: defer
+2025-08-14 05:51:06,121 INFO    SenderThread:21594 [sender.py:send_request_defer():610] handle sender defer: 8
+2025-08-14 05:51:06,121 INFO    SenderThread:21594 [job_builder.py:build():318] Attempting to build job artifact
+2025-08-14 05:51:06,122 INFO    SenderThread:21594 [job_builder.py:_get_source_type():455] is repo sourced job
+2025-08-14 05:51:06,146 INFO    SenderThread:21594 [job_builder.py:build():431] adding wandb-job metadata file
+2025-08-14 05:51:06,150 INFO    SenderThread:21594 [sender.py:transition_state():614] send defer: 9
+2025-08-14 05:51:06,151 DEBUG   SenderThread:21594 [sender.py:send_request():406] send_request: poll_exit
+2025-08-14 05:51:06,151 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: defer
+2025-08-14 05:51:06,151 DEBUG   SenderThread:21594 [sender.py:send():379] send: artifact
+2025-08-14 05:51:06,152 INFO    HandlerThread:21594 [handler.py:handle_request_defer():172] handle defer: 9
+2025-08-14 05:51:07,084 INFO    Thread-12 :21594 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/rogerchao92/Summer-Training-Week1/student_roger_week1/wandb/run-20250814_055101-kmrtdoxl/files/output.log
+2025-08-14 05:51:07,121 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: poll_exit
+2025-08-14 05:51:07,551 INFO    wandb-upload_0:21594 [upload_job.py:push():86] Skipped uploading /tmp/tmptchv0z_b/wandb-job.json
+2025-08-14 05:51:07,953 INFO    wandb-upload_1:21594 [upload_job.py:push():89] Uploaded file /home/rogerchao92/.local/share/wandb/artifacts/staging/tmpokkd7ucg
+2025-08-14 05:51:10,036 INFO    SenderThread:21594 [sender.py:send_artifact():1468] sent artifact job-https___github.com_ccuvislab_Summer-Training-Week1.git_student_roger_week1_train_mnist.py - {'id': 'QXJ0aWZhY3Q6MTk1NDg5MTM2NQ==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjcxNTMwMzc5MQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTk1NDg4Mzg1Mw==', 'versionIndex': 1}}}
+2025-08-14 05:51:10,037 DEBUG   SenderThread:21594 [sender.py:send_request():406] send_request: defer
+2025-08-14 05:51:10,037 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: status_report
+2025-08-14 05:51:10,037 INFO    SenderThread:21594 [sender.py:send_request_defer():610] handle sender defer: 9
+2025-08-14 05:51:10,038 INFO    SenderThread:21594 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-08-14 05:51:10,086 INFO    SenderThread:21594 [dir_watcher.py:finish():388] scan: /home/rogerchao92/Summer-Training-Week1/student_roger_week1/wandb/run-20250814_055101-kmrtdoxl/files
+2025-08-14 05:51:10,086 INFO    SenderThread:21594 [dir_watcher.py:finish():402] scan save: /home/rogerchao92/Summer-Training-Week1/student_roger_week1/wandb/run-20250814_055101-kmrtdoxl/files/conda-environment.yaml conda-environment.yaml
+2025-08-14 05:51:10,087 INFO    SenderThread:21594 [dir_watcher.py:finish():402] scan save: /home/rogerchao92/Summer-Training-Week1/student_roger_week1/wandb/run-20250814_055101-kmrtdoxl/files/wandb-metadata.json wandb-metadata.json
+2025-08-14 05:51:10,087 INFO    SenderThread:21594 [dir_watcher.py:finish():402] scan save: /home/rogerchao92/Summer-Training-Week1/student_roger_week1/wandb/run-20250814_055101-kmrtdoxl/files/config.yaml config.yaml
+2025-08-14 05:51:10,090 INFO    SenderThread:21594 [dir_watcher.py:finish():402] scan save: /home/rogerchao92/Summer-Training-Week1/student_roger_week1/wandb/run-20250814_055101-kmrtdoxl/files/requirements.txt requirements.txt
+2025-08-14 05:51:10,092 INFO    SenderThread:21594 [dir_watcher.py:finish():402] scan save: /home/rogerchao92/Summer-Training-Week1/student_roger_week1/wandb/run-20250814_055101-kmrtdoxl/files/wandb-summary.json wandb-summary.json
+2025-08-14 05:51:10,092 INFO    SenderThread:21594 [dir_watcher.py:finish():402] scan save: /home/rogerchao92/Summer-Training-Week1/student_roger_week1/wandb/run-20250814_055101-kmrtdoxl/files/output.log output.log
+2025-08-14 05:51:10,092 INFO    SenderThread:21594 [sender.py:transition_state():614] send defer: 10
+2025-08-14 05:51:10,092 DEBUG   SenderThread:21594 [sender.py:send_request():406] send_request: poll_exit
+2025-08-14 05:51:10,094 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: defer
+2025-08-14 05:51:10,096 INFO    HandlerThread:21594 [handler.py:handle_request_defer():172] handle defer: 10
+2025-08-14 05:51:10,099 DEBUG   SenderThread:21594 [sender.py:send_request():406] send_request: defer
+2025-08-14 05:51:10,099 INFO    SenderThread:21594 [sender.py:send_request_defer():610] handle sender defer: 10
+2025-08-14 05:51:10,099 INFO    SenderThread:21594 [file_pusher.py:finish():172] shutting down file pusher
+2025-08-14 05:51:10,123 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: poll_exit
+2025-08-14 05:51:10,124 DEBUG   SenderThread:21594 [sender.py:send_request():406] send_request: poll_exit
+2025-08-14 05:51:10,528 INFO    wandb-upload_1:21594 [upload_job.py:push():131] Uploaded file /home/rogerchao92/Summer-Training-Week1/student_roger_week1/wandb/run-20250814_055101-kmrtdoxl/files/config.yaml
+2025-08-14 05:51:11,125 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: poll_exit
+2025-08-14 05:51:11,126 DEBUG   SenderThread:21594 [sender.py:send_request():406] send_request: poll_exit
+2025-08-14 05:51:11,209 INFO    wandb-upload_4:21594 [upload_job.py:push():131] Uploaded file /home/rogerchao92/Summer-Training-Week1/student_roger_week1/wandb/run-20250814_055101-kmrtdoxl/files/output.log
+2025-08-14 05:51:11,209 INFO    wandb-upload_3:21594 [upload_job.py:push():131] Uploaded file /home/rogerchao92/Summer-Training-Week1/student_roger_week1/wandb/run-20250814_055101-kmrtdoxl/files/wandb-summary.json
+2025-08-14 05:51:11,220 INFO    wandb-upload_2:21594 [upload_job.py:push():131] Uploaded file /home/rogerchao92/Summer-Training-Week1/student_roger_week1/wandb/run-20250814_055101-kmrtdoxl/files/requirements.txt
+2025-08-14 05:51:11,240 INFO    wandb-upload_0:21594 [upload_job.py:push():131] Uploaded file /home/rogerchao92/Summer-Training-Week1/student_roger_week1/wandb/run-20250814_055101-kmrtdoxl/files/conda-environment.yaml
+2025-08-14 05:51:11,440 INFO    Thread-11 (_thread_body):21594 [sender.py:transition_state():614] send defer: 11
+2025-08-14 05:51:11,441 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: defer
+2025-08-14 05:51:11,441 INFO    HandlerThread:21594 [handler.py:handle_request_defer():172] handle defer: 11
+2025-08-14 05:51:11,441 DEBUG   SenderThread:21594 [sender.py:send_request():406] send_request: defer
+2025-08-14 05:51:11,441 INFO    SenderThread:21594 [sender.py:send_request_defer():610] handle sender defer: 11
+2025-08-14 05:51:11,441 INFO    SenderThread:21594 [file_pusher.py:join():178] waiting for file pusher
+2025-08-14 05:51:11,442 INFO    SenderThread:21594 [sender.py:transition_state():614] send defer: 12
+2025-08-14 05:51:11,442 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: defer
+2025-08-14 05:51:11,442 INFO    HandlerThread:21594 [handler.py:handle_request_defer():172] handle defer: 12
+2025-08-14 05:51:11,442 DEBUG   SenderThread:21594 [sender.py:send_request():406] send_request: defer
+2025-08-14 05:51:11,442 INFO    SenderThread:21594 [sender.py:send_request_defer():610] handle sender defer: 12
+2025-08-14 05:51:11,442 INFO    SenderThread:21594 [file_stream.py:finish():614] file stream finish called
+2025-08-14 05:51:11,645 INFO    SenderThread:21594 [file_stream.py:finish():618] file stream finish is done
+2025-08-14 05:51:11,645 INFO    SenderThread:21594 [sender.py:transition_state():614] send defer: 13
+2025-08-14 05:51:11,645 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: defer
+2025-08-14 05:51:11,645 INFO    HandlerThread:21594 [handler.py:handle_request_defer():172] handle defer: 13
+2025-08-14 05:51:11,645 DEBUG   SenderThread:21594 [sender.py:send_request():406] send_request: defer
+2025-08-14 05:51:11,645 INFO    SenderThread:21594 [sender.py:send_request_defer():610] handle sender defer: 13
+2025-08-14 05:51:11,646 INFO    SenderThread:21594 [sender.py:transition_state():614] send defer: 14
+2025-08-14 05:51:11,646 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: defer
+2025-08-14 05:51:11,646 DEBUG   SenderThread:21594 [sender.py:send():379] send: final
+2025-08-14 05:51:11,646 INFO    HandlerThread:21594 [handler.py:handle_request_defer():172] handle defer: 14
+2025-08-14 05:51:11,646 DEBUG   SenderThread:21594 [sender.py:send():379] send: footer
+2025-08-14 05:51:11,647 DEBUG   SenderThread:21594 [sender.py:send_request():406] send_request: defer
+2025-08-14 05:51:11,647 INFO    SenderThread:21594 [sender.py:send_request_defer():610] handle sender defer: 14
+2025-08-14 05:51:11,647 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: poll_exit
+2025-08-14 05:51:11,647 DEBUG   SenderThread:21594 [sender.py:send_request():406] send_request: poll_exit
+2025-08-14 05:51:11,648 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: poll_exit
+2025-08-14 05:51:11,648 DEBUG   SenderThread:21594 [sender.py:send_request():406] send_request: poll_exit
+2025-08-14 05:51:11,648 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: server_info
+2025-08-14 05:51:11,649 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: get_summary
+2025-08-14 05:51:11,649 DEBUG   SenderThread:21594 [sender.py:send_request():406] send_request: server_info
+2025-08-14 05:51:11,651 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: sampled_history
+2025-08-14 05:51:11,651 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: internal_messages
+2025-08-14 05:51:11,835 INFO    MainThread:21594 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2025-08-14 05:51:11,835 INFO    MainThread:21594 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2025-08-14 05:51:11,836 INFO    MainThread:21594 [wandb_run.py:_footer_sync_info():3895] logging synced files
+2025-08-14 05:51:11,836 DEBUG   HandlerThread:21594 [handler.py:handle_request():146] handle_request: shutdown
+2025-08-14 05:51:11,837 INFO    HandlerThread:21594 [handler.py:finish():866] shutting down handler
+2025-08-14 05:51:12,649 INFO    WriterThread:21594 [datastore.py:close():296] close: /home/rogerchao92/Summer-Training-Week1/student_roger_week1/wandb/run-20250814_055101-kmrtdoxl/run-kmrtdoxl.wandb
+2025-08-14 05:51:12,835 INFO    SenderThread:21594 [sender.py:finish():1546] shutting down sender
+2025-08-14 05:51:12,835 INFO    SenderThread:21594 [file_pusher.py:finish():172] shutting down file pusher
+2025-08-14 05:51:12,835 INFO    SenderThread:21594 [file_pusher.py:join():178] waiting for file pusher

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/rogerchao92/Summer-Training-Week1/student_roger_week1/train_mnist.py", line 20, in <module>
+    dataset = datasets.MNIST(root="./mnist",train=True, transform=transforms.ToTensor(), download=False)
+  File "/home/rogerchao92/.local/lib/python3.10/site-packages/torchvision/datasets/mnist.py", line 34, in __init__
+    raise RuntimeError('Dataset not found.'
+RuntimeError: Dataset not found. You can use download=True to download it
