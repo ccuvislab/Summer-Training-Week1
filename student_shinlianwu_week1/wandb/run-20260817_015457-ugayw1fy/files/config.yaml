@@ -1,0 +1,83 @@
+_wandb:
+    value:
+        cli_version: 0.28.2
+        e:
+            xksd2x69d35c5ctuofjpam9frdpo8yse:
+                codePath: student_shinlianwu_week1/train_mnist.py
+                codePathLocal: train_mnist.py
+                cpu_count: 112
+                cpu_count_logical: 224
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "67108864"
+                        used: "16384"
+                email: shinlianwu@gmail.com
+                executable: /usr/bin/python
+                git:
+                    commit: ae8e7e85e776cc3c73e1d6a915971a3c4ffbbcc6
+                    remote: https://github.com/ccuvislab/Summer-Training-Week1.git
+                gpu: NVIDIA H100 NVL
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "100485038080"
+                      name: NVIDIA H100 NVL
+                      uuid: GPU-b16f957c-2bf7-7849-f2f6-2fd32a24bd64
+                host: 25a-lgn02
+                memory:
+                    total: "540122836992"
+                os: Linux-5.14.0-570.116.1.el9_6.x86_64-x86_64-with-glibc2.35
+                program: /home/landy0830/Summer-Training-Week1/student_shinlianwu_week1/train_mnist.py
+                python: CPython 3.10.6
+                root: /home/landy0830/Summer-Training-Week1/student_shinlianwu_week1
+                slurm:
+                    cluster_name: hpc
+                    conf: /etc/slurm/slurm.conf
+                    job_account: gov114165
+                    job_cpus_per_node: "1"
+                    job_id: "267011"
+                    job_name: interactive
+                    job_nodelist: 25a-hgpn005
+                    job_num_nodes: "1"
+                    job_partition: dev
+                    job_qos: normal
+                    jobid: "267011"
+                    mem_per_node: "204800"
+                    nnodes: "1"
+                    nodelist: 25a-hgpn005
+                    nprocs: "1"
+                    ntasks: "1"
+                    ntasks_per_node: "1"
+                    submit_dir: /home/landy0830/Summer-Training-Week1/student_shinlianwu_week1
+                    submit_host: 25a-lgn02
+                    tasks_per_node: "1"
+                startedAt: "2026-08-16T17:54:57.356717Z"
+                writerId: xksd2x69d35c5ctuofjpam9frdpo8yse
+        m: []
+        python_version: 3.10.6
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 2
+                - 16
+            "4": 3.10.6
+            "5": 0.28.2
+            "12": 0.28.2
+            "13": linux-x86_64
+architecture:
+    value: MLP
+batch_size:
+    value: 64
+dataset:
+    value: FashionMNIST
+epochs:
+    value: 5
+learning_rate:
+    value: 0.001
