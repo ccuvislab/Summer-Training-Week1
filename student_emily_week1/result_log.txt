@@ -1,0 +1,39 @@
+wandb: [wandb.login()] Loaded credentials for https://api.wandb.ai from /home/xinyu1127/.netrc.
+wandb: Currently logged in as: xinyu1127 (xinyu1127-national-chung-cheng-university) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: setting up run ei5hhwmg
+wandb: Tracking run with wandb version 0.26.1
+wandb: Run data is saved locally in /home/xinyu1127/Summer-Training-Week1/student_emily_week1/wandb/run-20260817_163232-ei5hhwmg
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run peachy-bee-2
+wandb: ⭐️ View project at https://wandb.ai/xinyu1127-national-chung-cheng-university/week1-mlp
+wandb: 🚀 View run at https://wandb.ai/xinyu1127-national-chung-cheng-university/week1-mlp/runs/ei5hhwmg
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading config.yaml
+wandb: 
+wandb: Run history:
+wandb: accuracy ▁▄▅▆▆▇▇▇██
+wandb:    epoch ▁▂▃▃▄▅▆▆▇█
+wandb:     loss █▄▄▃▃▂▂▂▁▁
+wandb: 
+wandb: Run summary:
+wandb: accuracy 0.91313
+wandb:    epoch 10
+wandb:     loss 0.22799
+wandb: 
+wandb: 🚀 View run peachy-bee-2 at: https://wandb.ai/xinyu1127-national-chung-cheng-university/week1-mlp/runs/ei5hhwmg
+wandb: ⭐️ View project at: https://wandb.ai/xinyu1127-national-chung-cheng-university/week1-mlp
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260817_163232-ei5hhwmg/logs
+Using device: cuda
+Epoch [1/10] loss=0.5167 accuracy=0.8163
+Epoch [2/10] loss=0.3708 accuracy=0.8634
+Epoch [3/10] loss=0.3337 accuracy=0.8783
+Epoch [4/10] loss=0.3091 accuracy=0.8853
+Epoch [5/10] loss=0.2912 accuracy=0.8916
+Epoch [6/10] loss=0.2749 accuracy=0.8977
+Epoch [7/10] loss=0.2612 accuracy=0.9020
+Epoch [8/10] loss=0.2503 accuracy=0.9058
+Epoch [9/10] loss=0.2392 accuracy=0.9103
+Epoch [10/10] loss=0.2280 accuracy=0.9131
+Model saved to model.pt
