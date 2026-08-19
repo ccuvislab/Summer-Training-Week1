@@ -1,5 +1,5 @@
 # Summer Training Week 1 - Diana
-
+> Note: This branch was previously used for Winter Training, so some files and commits show older dates. The current README and Nano4/W&B screenshots are for the 2026 Summer Training Week 1 assignment.
 ## Student Information
 
 - Name: Diana
